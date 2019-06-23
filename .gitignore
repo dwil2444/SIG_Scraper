@@ -132,3 +132,12 @@ dmypy.json
 
 # all xml files
 *.xml
+
+# Desktop Services Store
+.DS_Store
+
+
+# Pycharm
+.idea/
+
+# Chrome Driver
