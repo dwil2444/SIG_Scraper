@@ -1,6 +1,12 @@
 # SIG_Scraper
 The Special Interest Group (SIG) defines a few standard Generic Attribute Profiles which serve as the foundation for the design of any Bluetooth Low Energy (BLE) System.
 
+### Mongo Server
+    1. Download and install the MongoDB Community Server from the following link: https://www.mongodb.com/download-center/community
+
+    2. To start the mongo server run the mongod process within your mongodb folder and specify your data directory with the following command:
+        /Users/******/mongodb/bin/mongod --dbpath=/Users/*******/mongodb-data
+        
 ### Scraping
 The scraping scripts search the Bluetooth GATT specifications pages for all the XML links containing the relevant bluetooth services and characteristics.
 

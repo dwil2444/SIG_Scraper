@@ -1,2 +1,2 @@
 #!/bin/sh
-/Users/danewilliamson/mongodb/bin/mongod --dbpath=/Users/danewilliamson/mongodb-data
+/Users/******/mongodb/bin/mongod --dbpath=/Users/*******/mongodb-data
