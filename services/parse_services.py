@@ -16,7 +16,6 @@ def parseXML(filename):
 
 def main():
     for file in glob.glob("*.xml"):
-        print(file)
         service = parseXML(file)
         print(service)
 
