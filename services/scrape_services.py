@@ -1,7 +1,5 @@
 from selenium import webdriver
 import httplib2
-from bs4 import BeautifulSoup, SoupStrainer
-import requests
 
 headers = {
     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
@@ -16,6 +14,7 @@ def parseLinkName(link):
     if '.xml' not in name:
         return name
     return name.split('.xml')[0]
+
 
 def downloadLinks(link):
     print(link)
@@ -37,11 +36,14 @@ def openBrowser():
             if('xml' in val):
                 downloadLinks(val)
         browser.quit()
+
     except:
         print('Error')
 
+
 def main():
     openBrowser()
+
 
 if __name__ == "__main__":
     main()

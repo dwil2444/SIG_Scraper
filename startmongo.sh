@@ -1,2 +1,3 @@
 #!/bin/sh
-/Users/******/mongodb/bin/mongod --dbpath=/Users/*******/mongodb-data
+echo ${HOME}
+${HOME}/mongodb/bin/mongod --dbpath=${HOME}/mongodb-data
